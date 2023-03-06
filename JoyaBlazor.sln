@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.0.0
+MinimumVisualStudioVersion = 16.0.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoyaBlazor.Server", "Server\JoyaBlazor.Server.csproj", "{38BBC753-D00D-439B-8141-3F7043E79895}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoyaBlazor.Client", "Client\JoyaBlazor.Client.csproj", "{B90A6214-2A3F-4119-961B-93F4C122B1DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoyaBlazor.Shared", "Shared\JoyaBlazor.Shared.csproj", "{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Release|x64.Build.0 = Release|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{B90A6214-2A3F-4119-961B-93F4C122B1DD}.Release|x86.Build.0 = Release|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Debug|x64.Build.0 = Debug|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Debug|x86.Build.0 = Debug|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Release|x64.ActiveCfg = Release|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Release|x64.Build.0 = Release|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Release|x86.ActiveCfg = Release|Any CPU
+		{38BBC753-D00D-439B-8141-3F7043E79895}.Release|x86.Build.0 = Release|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Debug|x64.Build.0 = Debug|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Debug|x86.Build.0 = Debug|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Release|x64.ActiveCfg = Release|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Release|x64.Build.0 = Release|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Release|x86.ActiveCfg = Release|Any CPU
+		{A4FE178A-2841-4BC6-821F-8A5EC1E41E2A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A760CB2-C72D-45C1-A261-FD820E23FBD2}
+	EndGlobalSection
+EndGlobal
