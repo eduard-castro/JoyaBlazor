@@ -1,14 +1,15 @@
-using System.Collections.Immutable;
 using JoyaBlazor.Server.Context;
-using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.AspNetCore.Builder;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext <MyDbContext>();
+builder.Services.AddScoped<MyDbContext,IMyDbContext>();
+
 
 var app = builder.Build();
 
